@@ -13,7 +13,7 @@ Genera y gestiona el codigo del Backend for Frontend para optimizar la comunicac
 | Recurso | Descripcion |
 |---------|-------------|
 | `globalsone-bff-template` | Template base del BFF |
-| `globalsone-bff-cli` | CLI para generar codigo |
+| `bff-cli-tools` | CLI para generar codigo |
 
 ## Que es un BFF?
 
@@ -54,7 +54,7 @@ cd my-bff
 pnpm install
 
 # 2. Instalar CLI
-npm install -g globalsone-bff-cli
+npm install -g bff-cli-tools
 
 # 3. Generar agregadores
 bff generate aggregator dashboard
@@ -63,16 +63,16 @@ bff generate orchestrator checkout-flow
 
 ## CLI - Generador de Codigo
 
-El CLI `globalsone-bff-cli` permite generar codigo siguiendo los patrones del BFF.
+El CLI `bff-cli-tools` permite generar codigo siguiendo los patrones del BFF.
 
 ### Instalacion
 
 ```bash
 # Global
-npm install -g globalsone-bff-cli
+npm install -g bff-cli-tools
 
 # O como devDependency
-npm install -D globalsone-bff-cli
+npm install -D bff-cli-tools
 ```
 
 ### Comandos Disponibles
